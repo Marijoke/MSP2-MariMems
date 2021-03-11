@@ -1,5 +1,5 @@
-# Name of my game
-NAME of game - is a single pattern memory game. Add summary.
+# Memory game
+My memory game is a single pattern game where players must match the cards. The game is arranged in 3 difficulty levels associated with colour. Red is Level 1 as it has been found to be the most attention grebbing and easiest to remember. This game will use colour to challenge how easy you remember.
 ![alt text](Insert mock up)
 [Please see the deployed site here](deployed site URL)
 ## UX
