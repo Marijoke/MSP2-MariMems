@@ -91,6 +91,7 @@ Local Deployment, run using Gitpod
 - I used parts of my [Milestone 1 project](https://marijoke.github.io/Milestone-project-Habiba/) to .
 - I used [Bootstrap](https://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo) to help with help the logo in the Navigation Bar
 - [Readme template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md#existing-features) helped me write my Readme file.
+- I used [W3 to create the read more button](https://www.w3schools.com/howto/howto_js_read_more.asp)
 ### Media
 -  YouTube Tutorial for building a Memory game [here](https://www.youtube.com/watch?v=eMhiMsEC9Uk&list=PLLX1I3KXZ-YH-woTgiCfONMya39-Ty8qw)
 ### Acknowledgements
