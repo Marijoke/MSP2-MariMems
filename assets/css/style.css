@@ -74,7 +74,6 @@ p {
     border: 5px solid #ccd5ae;
     margin: 2px;
 }
-
 .social-media {
     text-align: center;
     text-decoration: none;
@@ -85,7 +84,6 @@ p {
     color: rgb(44, 44, 44)
 }
 .socials {
-    /*padding: 2rem;*/
     margin: 1rem;
 }
 nav {
@@ -138,6 +136,16 @@ nav {
     background-color: #fefae0;
     margin-bottom: 2rem;
     padding: 0.5rem;
+}
+.social-media-footer {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.social-media-footer a {
+    font-size: 2rem;
+    color: rgb(44, 44, 44)
 }
 .memory-game {
     width: 640px;
