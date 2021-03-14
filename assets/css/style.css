@@ -28,64 +28,6 @@ p {
     font-size: 1rem;
     color: rgb(44, 44, 44)
 }
-.intro-background {
-    background-color: #ccd5ae;
-    height: 100vh;
-}
-.home-content {
-    background-color: #faedcd;
-    border-top: 8px solid #e9edc9 ;
-    border-bottom: 7px solid #d4a373;
-    padding: 1rem;
-    margin: 1rem 0rem;
-}
-/*.who-why-title h2 {
-    background-color: #fff;
-    padding: 0;
-}*/
-#logo{
-    font-family: "Fredoka One", sans-serif;
-    font-weight: 400;
-    font-size: 3rem;
-    color: rgb(44, 44, 44)
-}
-.intro-header {
-    text-align: center;
-    padding: 2rem;
-}
-.enter-button {
-    text-align: center;
-    padding: 2rem;
-    margin: 1rem;
-}
-.btn-lg {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-    background-color: #faedcd;
-    border-top: 5px solid #d4a373;
-    border-bottom: 6px solid #e9edc9 ;
-}
-.jump-in-buttons {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    background-color: #fefae0;
-    border: 5px solid #ccd5ae;
-    margin: 2px;
-}
-.social-media {
-    text-align: center;
-    text-decoration: none;
-    padding: 0.5rem;
-}
-.social-media a {
-    font-size: 3rem;
-    color: rgb(44, 44, 44)
-}
-.socials {
-    margin: 1rem;
-}
 nav {
     background: #ccd5ae;
     width: 100%; 
@@ -126,6 +68,79 @@ nav {
 .navbar-toggler i:hover {
     color: #EDC9C7;
 }
+.intro-background {
+    background-color: #ccd5ae;
+    height: 100vh;
+}
+.home-content {
+    background-color: #faedcd;
+    border-top: 8px solid #e9edc9 ;
+    border-bottom: 7px solid #d4a373;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.choose-level {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #faedcd;
+    border-top: 6px solid #e9edc9;
+    border-bottom: 6px solid #d4a373;
+}
+.level-button-copy {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+.level-heading{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+#logo{
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: rgb(44, 44, 44)
+}
+.intro-header {
+    text-align: center;
+    padding: 2rem;
+}
+.enter-button {
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+.btn-lg {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: #faedcd;
+    border-top: 5px solid #d4a373;
+    border-bottom: 6px solid #e9edc9;
+}
+.jump-in-buttons {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #fefae0;
+    border: 5px solid #ccd5ae;
+    margin: 2px;
+}
+.social-media {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.social-media a {
+    font-size: 3rem;
+    color: rgb(44, 44, 44)
+}
+.socials {
+    margin: 1rem;
+}
 #more {
     display: none;
 }
@@ -136,6 +151,11 @@ nav {
     background-color: #fefae0;
     margin-bottom: 2rem;
     padding: 0.5rem;
+}
+.footer-section {
+    position:absolute;
+    width: 100%;
+    background-color: #ccd5ae;
 }
 .social-media-footer {
     text-align: center;
