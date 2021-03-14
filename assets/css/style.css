@@ -7,7 +7,7 @@
 }
 body {
   height: 100vh;
-  display: flex;
+  /*display: flex;*/
   background: #ffff;
 }
 .intro-background {
@@ -17,6 +17,12 @@ h1 {
     font-family: "Fredoka One", sans-serif;
     font-weight: 400;
     font-size: 5rem;
+    color: rgb(44, 44, 44)
+}
+#logo{
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
     color: rgb(44, 44, 44)
 }
 .intro-header {
@@ -41,6 +47,46 @@ h1 {
 .socials {
     padding: 2rem;
     margin: 1rem;
+}
+nav {
+    background: #ccd5ae;
+    width: 100%; 
+    flex: none;
+}
+.nav-link {
+    font-size: 1.8rem;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fefae0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(44, 44, 44);
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 2rem;
+}
+.navbar-left img {
+    max-height: 12.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 2em;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-toggler i:hover {
+    color: #EDC9C7;
 }
 .memory-game {
     width: 640px;
