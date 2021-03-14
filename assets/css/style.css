@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +9,20 @@ body {
   height: 100vh;
   display: flex;
   background: #ffff;
+}
+h1 {
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    color: rgb(44, 44, 44)
+}
+.social-media {
+    text-align: center;
+    text-decoration: none;
+}
+.social-media a {
+    font-size: 3rem;
+    color: rgb(44, 44, 44)
 }
 .memory-game {
     width: 640px;
