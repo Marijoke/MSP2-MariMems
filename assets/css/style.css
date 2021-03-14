@@ -174,7 +174,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
-    border: 2px solid lime;
 }
 .memory-card{
     width: calc(25% - 10px);
@@ -184,7 +183,6 @@ nav {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
-    border: 2px solid blue;
 }
 .memory-card:active{
     transform: scale(.97);
@@ -199,9 +197,8 @@ nav {
     height: 100%;
     padding: 20px;
     position: absolute;
-    background: rosybrown;
+    background: #ccd5ae;
     backface-visibility: hidden;
-    border: 2px solid red;
 }
 .front-face {
     transform: rotateY(180deg);
