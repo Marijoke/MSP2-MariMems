@@ -9,9 +9,16 @@ This website is for people who currently enjoy any form of memory brain training
 ### Wireframes
 I created the wireframes using [Balsamiq](https://balsamiq.com/)
 
-[Please see Wireframes here.](Insert wireframes link in google photos)
+[Please see Wireframes here.](https://photos.app.goo.gl/b5QyRGzz2RgkKBySA)
+
 ### Fonts 
-The fonts chosen for the website are [name of font](font link) for headings and [name of font](font link) for body text. Why choose these fonts
+The fonts chosen for the website are [Fredoka One](https://fonts.google.com/specimen/Fredoka+One?preview.text_type=custom) for the logo. 
+[Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text_type=custom) for headings.
+ and [Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom) for body text. 
+ Why choose these fonts
+ Open Sans was designed with an upright stress, open forms and a neutral, yet friendly appearance. It was optimized for print, web, and mobile interfaces, and has excellent legibility characteristics in its letterforms.
+ Quicksand -It is designed for display purposes but kept legible enough to use in small sizes as well.
+ Fredoka One is a big, round, bold font that is perfect for adding a little fun to any headline or large text.
 ### Colours
 I used [Coolers](https://coolors.co/) to help me select a suitable colour scheme. I wanted colours that complimented each other but were also fairly warm and inviting.
 
@@ -23,7 +30,10 @@ I used [Coolers](https://coolors.co/) to help me select a suitable colour scheme
 
 ## Features
 ### Existing Features
-- 
+- Collapsible Navigation menu – allows all users to easily access the menu when viewing from a small screen, by selecting the burger menu that allows users to navigate between pages.
+- Footer – features social media links to to the brands pages for contact with customers and updates. 
+- Mobile First design – allows users to view the website across multiple platforms without compromising usability.
+- All images including feature alternative text to ensure website is accessible. 
 ### Features Left to Implement
 -	
 ## Technologies Used
@@ -37,10 +47,12 @@ I used [Coolers](https://coolors.co/) to help me select a suitable colour scheme
     - Used to write, store and view code
 - [Google fonts](https://fonts.google.com/)
     - Used 
-- [Font awesome 4.7](https://fontawesome.com/icons?d=gallery)
+- [Font awesome V5.15.2](https://fontawesome.com/icons?d=gallery)
     -Used for 
 - [Coverr](https://coverr.co/)
     - Used for pictures
+- [Pexels](https://www.pexels.com/)
+    - Used for pictures    
 
 ## Testing
 My Code was checked using both the [Markup Validation Service](https://validator.w3.org/#validate_by_input) and the [CSS Validation Service](https://jigsaw.w3.org/css-validator/). 
