@@ -1,29 +1,33 @@
-// gets the memory card selection
+// Flips cards when clicked, Matches cards and shuffles linked to CSS
 
 const cards = document.querySelectorAll('.memory-card');
 
-let hasFlippedCard = false;
+let cardHasFlipped = false;
 let lockBoard = false;
-let firstCard, secondCard;
+let firstCardFlip, secondCardFlip;
 let counter = 0;
 
+/* lock board prevents double card click removing event listener and crashing game
+flips card when clicked
+**/
 
 function flipCard(){
     if (lockBoard) return;
-    if (this === firstCard) return;
+    if (this === firstCardFlip) return;
     this.classList.add('flip');
-    if (!hasFlippedCard) {
-        hasFlippedCard = true;
-        firstCard = this;
+    if (!cardHasFlipped) {
+        cardHasFlipped = true;
+        firstCardFlip = this;
         return;
     } 
-        secondCard = this;
+        secondCardFlip = this;
         
        checkForMatch();
     }
+// Uses datasets to match cards in html
 
 function checkForMatch() {
-    let isMatch = firstCard.dataset.name === secondCard.dataset.name;
+    let isMatch = firstCardFlip.dataset.name === secondCardFlip.dataset.name;
     isMatch ? disableCards() : unflipCards();
     if (isMatch) {
         counter ++;
@@ -38,35 +42,46 @@ function checkForMatch() {
     }
      // we need to find out here if all cards have been flipped or if no card is left for flipping
 }
+// disableCards and event listener stops further flipping
 
 function disableCards() {
-    firstCard.removeEventListener('click', flipCard);
-    secondCard.removeEventListener('click', flipCard);
+    firstCardFlip.removeEventListener('click', flipCard);
+    secondCardFlip.removeEventListener('click', flipCard);
     resetBoard();
 }
+// delays the flip of the cards. Lockboard stops two cards being flipped at once 
 
 function unflipCards(){
     lockBoard = true;
     setTimeout(() => {
-        firstCard.classList.remove('flip');
-        secondCard.classList.remove('flip');
+        firstCardFlip.classList.remove('flip');
+        secondCardFlip.classList.remove('flip');
         resetBoard();
     }, 1500);
 }
+// resets variables after each round thus avoiding double click crash
 
 function resetBoard() {
-  [hasFlippedCard, lockBoard] = [false, false];
-  [firstCard, secondCard] = [null, null];
+  [cardHasFlipped, lockBoard] = [false, false];
+  [firstCardFlip, secondCardFlip] = [null, null];
 }
+
+/* assigns a number to cards to shuffle them at random. () before function 
+executing this function as soon as it is declared
+**/
 
 (function shuffle() {
   cards.forEach(card => {
-    let randomPos = Math.floor(Math.random() * 12);
-    card.style.order = randomPos;
+    let selectRandom = Math.floor(Math.random() * 12);
+    card.style.order = selectRandom;
   });
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+/* creates the read more button in home.html 
+used https://www.w3schools.com/howto/howto_js_read_more.asp to create it.
+**/
 
 function myFunction() {
   let dots = document.getElementById("dots");
