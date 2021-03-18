@@ -1,6 +1,5 @@
-// Flips cards when clicked, Matches cards and shuffles linked to CSS
-
-const cards = document.querySelectorAll('.memory-card');
+// targets cards in html
+const gameCards = document.querySelectorAll('.memory-card');
 
 let cardHasFlipped = false;
 let lockBoard = false;
@@ -47,7 +46,7 @@ function checkForMatch() {
 function disableCards() {
     firstCardFlip.removeEventListener('click', flipCard);
     secondCardFlip.removeEventListener('click', flipCard);
-    resetBoard();
+    resetGame();
 }
 // delays the flip of the cards. Lockboard stops two cards being flipped at once 
 
@@ -56,12 +55,12 @@ function unflipCards(){
     setTimeout(() => {
         firstCardFlip.classList.remove('flip');
         secondCardFlip.classList.remove('flip');
-        resetBoard();
+        resetGame();
     }, 1500);
 }
 // resets variables after each round thus avoiding double click crash
 
-function resetBoard() {
+function resetGame() {
   [cardHasFlipped, lockBoard] = [false, false];
   [firstCardFlip, secondCardFlip] = [null, null];
 }
@@ -71,30 +70,68 @@ executing this function as soon as it is declared
 **/
 
 (function shuffle() {
-  cards.forEach(card => {
-    let selectRandom = Math.floor(Math.random() * 12);
+  gameCards.forEach(card => {
+    let selectRandom = Math.floor(Math.random() * 20);
     card.style.order = selectRandom;
   });
 })();
 
-cards.forEach(card => card.addEventListener('click', flipCard));
+gameCards.forEach(card => card.addEventListener('click', flipCard));
 
-/* creates the read more button in home.html 
-used https://www.w3schools.com/howto/howto_js_read_more.asp to create it.
+/* creates the read more/read less button in home.html 
 **/
 
 function myFunction() {
-  let dots = document.getElementById("dots");
-  let moreText = document.getElementById("more");
-  let btnText = document.getElementById("myBtn");
+  let ellipsis = document.getElementById("ellipsis");
+  let moreText = document.getElementById("continue");
+  let textBtn = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
+  if (ellipsis.style.display === "none") {
+    ellipsis.style.display = "inline";
+    textBtn.innerHTML = "Read more";
     moreText.style.display = "none";
   } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    ellipsis.style.display = "none";
+    textBtn.innerHTML = "Read less";
     moreText.style.display = "inline";
   }
+}
+
+/*function timer(time,update,complete) {
+    let start = new Date().getTime();
+    let interval = setInterval(function() {
+        let now = time-(new Date().getTime()-start);
+        if( now <= 0) {
+            clearInterval(interval);
+            complete();
+        }
+        else update(Math.floor(now/1000));
+    },100); 
+    // the smaller this number, the more accurate the timer will be
+}
+
+timer(
+    11000, // milliseconds
+    function(timeleft) { // called every step to update the visible countdown
+        document.getElementById('timer').innerHTML = timeleft+" second(s)";
+    },
+    function() { // what to do after
+        alert("Timer complete!");
+    }
+);**/
+
+
+function time()
+{
+    
+  count=count+1;
+  if (count >=6) //+1 than the req time as we have a delay of 1000ms
+  {
+     clearInterval(counts);
+     /////////////what code should go here for the modal to pop up??///////////////////////
+      $("#myModal").modal();
+      
+     return;
+  }
+    document.getElementById("times").innerHTML=count + " secs"; // watch for spelling
 }

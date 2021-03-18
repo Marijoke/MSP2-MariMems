@@ -155,7 +155,7 @@ nav {
     padding: 0.5rem;
 }
 .footer {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: auto;
     background-color: #ccd5ae;
@@ -163,25 +163,45 @@ nav {
 .social-media-footer {
     text-align: center;
     text-decoration: none;
-    padding: 0.5rem;
-    margin: 1rem;
+    /*padding: 0.5rem;*/
+    /*margin: 1rem;*/
 }
 .social-media-footer a {
     font-size: 2rem;
     color: rgb(44, 44, 44)
 }
+.social-media a:hover {
+    color:#fefae0;
+}
+
 .memory-game {
-    width: 640px;
-    height: 640px;
+    width: 300px;
+    height: 300px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
 }
-.memory-card{
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
+/*.memory-card{
     margin: 5px;
+    background-color: #ccd5ae;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 150px;
+    width: 150px;
+}*/
+/* height: 150px;*/
+   /* width: 150px;*/
+
+.memory-card{
+   width: calc(25% - 10px);
+   height: calc(33.333% - 10px);
+    margin: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    justify-content: space-evenly;
     position: relative;
     transform: scale(1);
     transform-style: preserve-3d;
@@ -198,7 +218,7 @@ nav {
 .back-face {
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
     background: #ccd5ae;
     backface-visibility: hidden;
@@ -210,13 +230,28 @@ img {
     width: 150px;
     height: 200px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
     #logo{
         font-size: 4rem;
+    }
+    .memory-game {
+    width: 640px;
+    height: 640px;
+    }
+    .front-face,
+    .back-face {
+    padding: 20px;
     }
 }
 @media screen and (min-width: 1200px) {
     #logo{
         font-size: 5rem;
     }
+    
+}
+
+#timer {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
 }
