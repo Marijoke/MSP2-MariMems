@@ -11,9 +11,6 @@ body {
   display: grid;
   background: #ffff;
 }
-header{
-    height: 2rem;
-}
 nav {
     background: #ccd5ae;
     width: 100%; 
@@ -146,7 +143,7 @@ p {
 .socials {
     margin: 1rem;
 }
-#more {
+#continue {
     display: none;
 }
 #myBtn {
@@ -157,8 +154,6 @@ p {
     margin-bottom: 2rem;
     padding: 0.5rem;
 }
-
-
 .memory-game {
     width: 300px;
     height: 300px;
@@ -167,8 +162,6 @@ p {
     flex-wrap: wrap;
     perspective: 1000px;
 }
-
-
 .memory-card{
    width: calc(25% - 10px);
    height: calc(33.333% - 10px);
@@ -260,7 +253,6 @@ img {
     }
     
 }
-
 #timer {
     text-align: center;
     font-size: 60px;
