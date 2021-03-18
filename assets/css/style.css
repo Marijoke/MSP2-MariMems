@@ -8,26 +8,11 @@
 body {
   min-height: 100vh;
   position: relative;
-  /*display: grid;*/
+  display: grid;
   background: #ffff;
 }
-h1 {
-    font-family: "Fredoka One", sans-serif;
-    font-weight: 400;
-    font-size: 5rem;
-    color: rgb(44, 44, 44)
-}
-h2 {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    color: rgb(44, 44, 44)
-}
-p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    color: rgb(44, 44, 44)
+header{
+    height: 2rem;
 }
 nav {
     background: #ccd5ae;
@@ -67,7 +52,25 @@ nav {
     border-radius: .25rem;
 }
 .navbar-toggler i:hover {
-    color: #EDC9C7;
+    color: #faedcd;
+}
+h1 {
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    color: rgb(44, 44, 44)
+}
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgb(44, 44, 44)
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(44, 44, 44)
 }
 .intro-background {
     background-color: #ccd5ae;
@@ -154,25 +157,7 @@ nav {
     margin-bottom: 2rem;
     padding: 0.5rem;
 }
-.footer {
-    /*position: absolute;*/
-    width: 100%;
-    height: auto;
-    background-color: #ccd5ae;
-}
-.social-media-footer {
-    text-align: center;
-    text-decoration: none;
-    /*padding: 0.5rem;*/
-    /*margin: 1rem;*/
-}
-.social-media-footer a {
-    font-size: 2rem;
-    color: rgb(44, 44, 44)
-}
-.social-media a:hover {
-    color:#fefae0;
-}
+
 
 .memory-game {
     width: 300px;
@@ -182,17 +167,7 @@ nav {
     flex-wrap: wrap;
     perspective: 1000px;
 }
-/*.memory-card{
-    margin: 5px;
-    background-color: #ccd5ae;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center center;
-    height: 150px;
-    width: 150px;
-}*/
-/* height: 150px;*/
-   /* width: 150px;*/
+
 
 .memory-card{
    width: calc(25% - 10px);
@@ -206,6 +181,10 @@ nav {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
+}
+.levelTwoCard{
+    width: calc(20% - 10px);
+    height: calc(30% - 10px);
 }
 .memory-card:active{
     transform: scale(.97);
@@ -230,6 +209,29 @@ img {
     width: 150px;
     height: 200px;
 }
+#gameplay-pic {
+    width: none;
+    height: none;
+}  
+.footer {
+    /*position: absolute;*/
+    width: 100%;
+    height: auto;
+    background-color: #ccd5ae;
+}
+.social-media-footer {
+    text-align: center;
+    text-decoration: none;
+    /*padding: 0.5rem;*/
+    /*margin: 1rem;*/
+}
+.social-media-footer a {
+    font-size: 2rem;
+    color: rgb(44, 44, 44)
+}
+.social-media a:hover {
+    color:#fefae0;
+}
 @media screen and (min-width: 750px) {
     #logo{
         font-size: 4rem;
@@ -241,6 +243,15 @@ img {
     .front-face,
     .back-face {
     padding: 20px;
+    }
+    .levelTwo {
+    width: 400px;
+    height: 400px;
+    }
+
+    .levelTwoCard {
+        width: calc(25% - 10px);
+        height: calc(30% - 10px);
     }
 }
 @media screen and (min-width: 1200px) {
