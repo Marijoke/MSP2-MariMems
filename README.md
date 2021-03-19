@@ -54,6 +54,7 @@ I used [Coolers](https://coolors.co/) to look up suitable colour schemes. I want
 - Points stystem  - so players can see how many points they have earned over the course of the game.
 - Timer - To show players how long it took them to solve the puzzle. 
 - Scoreboard - They are then able to challenge themselves by trying to beat their last time.
+- Compatibility for Safari - Found a lont of bugs using the site on apple devices.
 ## Technologies Used
 - HTML5 
 - CSS3
@@ -104,10 +105,6 @@ Local Deployment, run using Gitpod
 -	Add the Gitpod browser extension on Google chrome
 -	Login to your GitHub account
 -	Locate the project repository and select the green Gitpod button which will open a workspace. 
-
-### Bugs
-- Double clicking caused the game to crash. This was resolved by adding lockboard in JavaScript. 
-- The footer moves away from the bottom of the screen
 
 ## Credits
 ### Content 

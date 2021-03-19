@@ -78,7 +78,7 @@ function unflipCards() {
         firstCardFlip.classList.remove('flip');
         secondCardFlip.classList.remove('flip');
         resetGame();
-    }, 1200);
+    }, 1600);
 }
 
 // resets cards after each round thus avoiding double click crash

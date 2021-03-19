@@ -228,10 +228,6 @@ p {
 .front-face {
     transform: rotateY(180deg);
 }
-img {
-    width: 150px;
-    height: 200px;
-}
 #gameplay-pic {
     width: 25rem;
     height: 26rem;
@@ -270,8 +266,8 @@ img {
         padding: 8px;
     }
     .levelTwo {
-        width: 480px;
-        height: 500px;
+        width: 450px;
+        height: 455px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 5rem;
