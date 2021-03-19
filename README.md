@@ -2,8 +2,10 @@
 Mari Mems is the company behind Face match, a multi-level memory game where players must match the cards of strangers faces to win. 
 The website features a card matching game, how to play, who are Mari Mems and information on brain training. 
 Mari Mems is a fictional memory game company created for the purpose of this project.
-![alt text](Insert mock up)
-[Please see the deployed site here](https://marijoke.github.io/MSP2-MemoryGame/)
+
+
+![alt text](assets/images/responsive.png "Multi device mock up")
+[Please see the deployed site here](https://marijoke.github.io/MSP2-MariMems/)
 ## UX
 This website is for:
 - People who currently enjoy any form of brain training.
