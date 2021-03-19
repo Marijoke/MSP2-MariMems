@@ -27,7 +27,7 @@ if (url.includes("2")) {
 }
 if (url.includes("3")) {
     levelMatches = 12;
-    nextUrl = "index.html";
+    nextUrl = "winner.html";
 }
 
 /* lock board prevents double card click removing event listener and crashing game
@@ -57,7 +57,6 @@ function checkForMatch() {
         counter++;
         console.log("isMatch: ", counter);
         if (counter === levelMatches) {
-            console.log("yay, you've won!");
             window.location = nextUrl;
         }
         disableCards();

@@ -177,6 +177,13 @@ p {
     margin: 1.5rem;
     padding-bottom: 2rem;
 }
+.levelThree {
+    width: 330px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 9rem;
+}
 .memory-card{
    width: calc(25% - 10px);
    height: calc(33.333% - 10px);
@@ -194,6 +201,10 @@ p {
     width: calc(20% - 10px);
     height: calc(30% - 10px);
 }
+.levelThreeCard{
+    width: calc(21% - 10px);
+    height: calc(28% - 10px); 
+}
 .memory-card:active{
     transform: scale(.97);
     transition: transform .2s;
@@ -209,6 +220,10 @@ p {
     position: absolute;
     background: #ccd5ae;
     backface-visibility: hidden;
+}
+  .levelThreeFront,
+  .levelThreeBack {
+    padding: 8px;
 }
 .front-face {
     transform: rotateY(180deg);
@@ -243,39 +258,55 @@ img {
         font-size: 4rem;
     }
     .memory-game {
-    width: 640px;
-    height: 640px;
+        width: 640px;
+        height: 640px;
     }
     .front-face,
     .back-face {
-    padding: 20px;
+        padding: 20px;
     }
     .levelTwoFront,
     .levelTwoBack {
         padding: 8px;
     }
     .levelTwo {
-    width: 480px;
-    height: 500px;
-    margin-left: 8rem;
-    padding-bottom: 5rem;
+        width: 480px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5rem;
     }
     .levelTwoCard {
         width: calc(25% - 10px);
         height: calc(30% - 10px);
     }
     .level-button-copy {
-    font-size: 3rem; 
+        font-size: 3rem; 
     }
     h2 {
-    font-size: 3rem;
+        font-size: 3rem;
     }
     .nav-link {
-    font-size: 2rem;
+        font-size: 2rem;
     }
     .social-media-footer a {
-    font-size: 3rem;
-}
+        font-size: 3rem;
+    }
+    .levelThreeCard {
+        width: calc(16% - 10px);
+        height: calc(26% - 10px);
+    }
+    .levelThree {
+        width: 700px;
+        height: 680px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2rem;
+    }
+    .levelThreeFront,
+    .levelThreeBack {
+        padding: 8px;
+    }
 }
 @media screen and (min-width: 1200px) {
     #logo{
@@ -291,6 +322,13 @@ img {
     .levelTwoCard {
         width: calc(20% - 10px);
         height: calc(34% - 10px);
+    }
+    .levelThree {
+        width: 850px;
+        height: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 3rem;
     }
  
 }
