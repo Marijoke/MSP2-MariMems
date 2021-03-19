@@ -86,11 +86,15 @@ For more testing across multiple devices please see the [Mari Mems Tests](/works
 ## Deployment
 
 My project was deployed using GitHub Pages
--	While logged in to GitHub I located my project repository 
--	Selected settings
--	Scrolled to find GitHub Pages I selected Master as the source. 
--	Pressed save
--	After refreshing I revisited GitHub Pages in the settings and was able to click the link to see the site live. 
+- Logged into my account on [gitHub.com](https://github.com/)
+- I located my project repository 
+- Selected settings
+- Scrolled to find 'GitHub Pages' 
+- I selected Master as the source in the dropdown menu
+- Pressed save
+- Page is automatically refreshed.
+- I scrolled down back to 'GitHub Pages' where the new link is available.
+- Clicking the link takes you to the deployed website 
 
 Local Deployment, run using Gitpod
 -	Add the Gitpod browser extension on Google chrome
