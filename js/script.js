@@ -17,7 +17,6 @@ next level.
 
 console.log("url is: ", url);
 if (url.includes("1")) {
-    console.log("im here");
     levelMatches = 6;
     nextUrl = "level2.html";
 }

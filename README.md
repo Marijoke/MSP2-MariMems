@@ -9,10 +9,10 @@ This website is for:
 - People who currently enjoy any form of brain training.
 - People who want to improve their memory.
 - People who struggle with faces and want to improve their ability to remember faces
-- People interested games as a way to improve recall.
+- People interested games to improve recall.
 - People with a specific interest in card matching games.
 
-The website is easy to manouver using buttons and the drop down menu. 
+The website is easy to manoeuvre using buttons and the drop-down menu. 
 
 I created the back of my cards to tie in with the theme and the brand created. This presents a clean uniformed look to the player. 
 
@@ -25,7 +25,7 @@ I created wireframes using [Balsamiq](https://balsamiq.com/)
 The fonts chosen for the website are:
 - [Fredoka One](https://fonts.google.com/specimen/Fredoka+One?preview.text_type=custom). I chose this font to be the font of the company Mari Mems. The font also doubles as the logo. It is big, bold and fun which is what the brand portrays themselves to be.
 - [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text_type=custom). I chose this font for my headings as it was clean, friendly font that was bold enough to be the heading without being too distracting near the logo, nor is it unpleasant to the eyes across various sizes.
-- [Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom). Open sans was recommened as a complimentary font Quicksand for the body. I liked how they looked together and apprecieated the simplicity of the font especially in comparison to the logo and bold colours.
+- [Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom). Open sans was recommended as a complimentary font Quicksand for the body. I liked how they looked together and appreciated the simplicity of the font especially in comparison to the logo and bold colours.
 
 ### Colours
 I used [Coolers](https://coolors.co/) to look up suitable colour schemes. I wanted colours that complimented each other but were also bold, warm and inviting.
@@ -33,17 +33,17 @@ I used [Coolers](https://coolors.co/) to look up suitable colour schemes. I want
 ![alt text](assets/images/memory-game-palette.png "Colours")
 
 ## User Stories 
-- As an existing player of memory games I want to be challenged by a new game, have fun and improve my memory.
-- As a potential player of memory games I am interested in fun ways to improve my memory.
-- As an existing player of memory games I am interested in new memory game concepts
-- As a potential player of memory games I look for something I can and would want to play over and over. 
+- As an existing player of memory games, I want to be challenged by a new game, have fun and improve my memory.
+- As a potential player of memory games, I am interested in fun ways to improve my memory.
+- As an existing player of memory games, I am interested in new memory game concepts
+- As a potential player of memory games, I look for something I can and would want to play over and over. 
 
 ## Features
 ### Existing Features
 - Collapsible Navigation menu – allows players to move between pages with ease regardless of the size of their device.
 - Footer – features social media links to the Mari Mems social pages for direct contact with the company. Mari Mems uses their socials to provide players with updates and the newest memory games. 
 - Mobile First design – allows users to view the website across multiple platforms without compromising usability.
-- Aternative text - All images including feature alternative text to ensure website is accessible for those with visual impairments.
+- Alternative text - All images including feature alternative text to ensure website is accessible for those with visual impairments.
 - Memory game - Created using JavaScript to create a board with cards that flip over and stay up when matched
 - Timer - To show players how long it took them to solve the puzzle. They are then able to challenge themselves by trying to beat their last time.
 - Read more/less button - This allows players to get more information on what they are interested in rather than filling the screen with large amounts of text. 
@@ -74,7 +74,7 @@ My Code has been checked using:
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - Google developer tool, Lighthouse. The report for this can be found [here](insert uploaded photo here)
 
-My project has responded well to testing in various browsers on across mulitple devices. 
+My project has responded well to testing in various browsers on across multiple devices. 
 - The project was tested in:
     - [Google Chrome](https://www.google.com/intl/en_uk/chrome/)
     - [Firefox](https://www.mozilla.org/en-GB/firefox/)
@@ -113,4 +113,4 @@ Local Deployment, run using Gitpod
 ### Acknowledgements
 - My sister a player of memory games helped me with my user stories 
 - My tutor for the advice before, during and at the end of this project.
-- [Discolure](https://www.disclosureofficial.com/) for making music that keeps me productive 
+- [Disclosure](https://www.disclosureofficial.com/) for making music that keeps me productive
