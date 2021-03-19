@@ -12,5 +12,5 @@
 - As a potential player of memory games, I look for something I can and would want to play over and over. 
     - 
 
-    
+
 ## Manual testing 

@@ -47,11 +47,13 @@ I used [Coolers](https://coolors.co/) to look up suitable colour schemes. I want
 - Mobile First design – allows users to view the website across multiple platforms without compromising usability.
 - Alternative text - All images including feature alternative text to ensure website is accessible for those with visual impairments.
 - Memory game - Created using JavaScript to create a board with cards that flip over and stay up when matched
-- Timer - To show players how long it took them to solve the puzzle. They are then able to challenge themselves by trying to beat their last time.
 - Read more/less button - This allows players to get more information on what they are interested in rather than filling the screen with large amounts of text. 
 ### Features Left to Implement
-- Additional levels - The game currently has two levels but is set up to have at least 3. 
+- Additional levels - The game currently has three levels
 - Additional memory games - I have created a memory brand so would like to add other types of memory games.
+- Points stystem  - so players can see how many points they have earned over the course of the game.
+- Timer - To show players how long it took them to solve the puzzle. 
+- Scoreboard - They are then able to challenge themselves by trying to beat their last time.
 ## Technologies Used
 - HTML5 
 - CSS3
@@ -74,7 +76,7 @@ I used [Coolers](https://coolors.co/) to look up suitable colour schemes. I want
 My Code has been checked using:
 - [Markup Validation Service](https://validator.w3.org/#validate_by_input)
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-- Google developer tool, Lighthouse. The report for this can be found [here](insert uploaded photo here)
+- Google developer tool, Lighthouse. The report for this can be found [here](https://photos.app.goo.gl/bhJNqFHBcJVFbaPy7)
 
 My project has responded well to testing in various browsers on across multiple devices. 
 - The project was tested in:
@@ -118,5 +120,5 @@ Local Deployment, run using Gitpod
 -  YouTube Tutorial for building a Memory game [here](https://www.youtube.com/watch?v=eMhiMsEC9Uk&list=PLLX1I3KXZ-YH-woTgiCfONMya39-Ty8qw)
 ### Acknowledgements
 - My sister a player of memory games helped me with my user stories 
-- My tutor for the advice before, during and at the end of this project.
+- My tutor for the advice before, during and at the end of this project, especialy when I made a mess of my code.
 - [Disclosure](https://www.disclosureofficial.com/) for making music that keeps me productive
